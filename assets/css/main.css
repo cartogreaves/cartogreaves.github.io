@@ -2345,23 +2345,23 @@
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
-		}
-
-		.icon.style2 {
-			color: #c79cc8;
+			color: #549D91;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #549D91;
+		}
+
+		.icon.style2 {
+			color: #549D91;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #549D91;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #549D91;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2678,7 +2678,7 @@
 				content: '';
 				width: 3.25em;
 				height: 2px;
-				margin: 0.7em 0 1em 0;
+				margin: 0.2em 0 1em 0;
 				border-radius: 2px;
 			}
 
@@ -3561,11 +3561,12 @@
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: #935d8c;
+		background-image: -moz-linear-gradient(60deg, #90E09D 0%, #00477D 100%);
+		background-image: -webkit-linear-gradient(60deg, #90E09D 0%, #00477D 100%);
+		background-image: -ms-linear-gradient(60deg, #90E09D 0%, #00477D 100%);
+		background-image: linear-gradient(30deg, #90E09D 0%, #00477D 100%);
+		
 		}
 
 		#main table tbody tr {
