@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="icon" 
+      	type="image/png" 
+      	class="icon major style3 fa-globe">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -37,6 +40,7 @@
 						<ul>
 							<li><a href="#intro" class="active">About Me</a></li>
 							<li><a href="#first">Skills</a></li>
+							<li><a href="#second">Projects</a></li>
 							<li><a href="https://github.com/RJHCarto">GitHub</a></li>
 							<!--<li><a href="#second">Projects</a></li>-->
 							<!-- <li><a href="#cta">Get Started</a></li> -->
@@ -70,7 +74,7 @@
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
-									<h2>Skills</h2>
+									<h2>Interests</h2>
 								</header>
 								<p>Web cartography is enabling data to be instantly recognisable, understandable and interpretable.</p>
 								<ul class="features">
@@ -94,8 +98,11 @@
 							</section>
 
 						<!--Second Section --> 
-							<section id="second" class="main special">
-								<div id="mapid" style="width: 100%; height: 400px;"></div>
+							<section id="second" >
+								<header style="text-align: center;">
+									<h2>Project Map</h2>
+								</header>
+								<div id="mapid" style="width: 100%; height: 400px; border-radius: 0.25em;"></div>
 							</section>
 
 						<!-- Get Started
@@ -156,7 +163,7 @@
 			<script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
     		integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
     		crossorigin=""></script>
-			<script src="./js/map.js"></script>
+			<script src="assets/js/map.js"></script>
 
 	</body>
 </html>
