@@ -9,3 +9,5 @@
     
     }).addTo(mymap);
     
+    L.marker([69.756754, 27.009036]).addTo(mymap)
+    	.bindPopup('<a href="pdfs/UGDis.pdf" target="_blank">Dissertation</a><br />Kevo Valley, Finland')
