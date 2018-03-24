@@ -48,6 +48,8 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -57,6 +59,11 @@
 	}
 
 /* Grid */
+	.divider{
+    	width:5px;
+    	height:auto;
+    	display:inline-block;
+	}
 
 	.row {
 		border-bottom: solid 1px transparent;
