@@ -1,0 +1,456 @@
+<!-- Sankey generated in R 3.4.3 by googleVis 0.6.2 package -->
+<!-- Sun Apr 08 21:06:28 2018 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+
+
+// jsData 
+function gvisDataSankeyID303022f375bc () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Jan",
+"1 Week",
+14116
+],
+[
+"Jan",
+"Fortnight",
+1053
+],
+[
+"Jan",
+"1 Month",
+507
+],
+[
+"Jan",
+"3 Months",
+524
+],
+[
+"Jan",
+"6 Months",
+336
+],
+[
+"Jan",
+"1 Year",
+281
+],
+[
+"Jan",
+"Year +",
+25
+],
+[
+"Feb",
+"1 Week",
+19844
+],
+[
+"Feb",
+"Fortnight",
+925
+],
+[
+"Feb",
+"1 Month",
+667
+],
+[
+"Feb",
+"3 Months",
+559
+],
+[
+"Feb",
+"6 Months",
+474
+],
+[
+"Feb",
+"1 Year",
+226
+],
+[
+"Feb",
+"Year +",
+19
+],
+[
+"Mar",
+"1 Week",
+17219
+],
+[
+"Mar",
+"Fortnight",
+1036
+],
+[
+"Mar",
+"1 Month",
+1105
+],
+[
+"Mar",
+"3 Months",
+953
+],
+[
+"Mar",
+"6 Months",
+529
+],
+[
+"Mar",
+"1 Year",
+183
+],
+[
+"Mar",
+"Year +",
+12
+],
+[
+"Apr",
+"1 Week",
+14297
+],
+[
+"Apr",
+"Fortnight",
+1312
+],
+[
+"Apr",
+"1 Month",
+965
+],
+[
+"Apr",
+"3 Months",
+690
+],
+[
+"Apr",
+"6 Months",
+441
+],
+[
+"Apr",
+"1 Year",
+232
+],
+[
+"May",
+"1 Week",
+15909
+],
+[
+"May",
+"Fortnight",
+1407
+],
+[
+"May",
+"1 Month",
+896
+],
+[
+"May",
+"3 Months",
+1030
+],
+[
+"May",
+"6 Months",
+462
+],
+[
+"May",
+"1 Year",
+306
+],
+[
+"Jun",
+"1 Week",
+16700
+],
+[
+"Jun",
+"Fortnight",
+1562
+],
+[
+"Jun",
+"1 Month",
+825
+],
+[
+"Jun",
+"3 Months",
+1138
+],
+[
+"Jun",
+"6 Months",
+460
+],
+[
+"Jun",
+"1 Year",
+211
+],
+[
+"Jul",
+"1 Week",
+15693
+],
+[
+"Jul",
+"Fortnight",
+1467
+],
+[
+"Jul",
+"1 Month",
+791
+],
+[
+"Jul",
+"3 Months",
+909
+],
+[
+"Jul",
+"6 Months",
+467
+],
+[
+"Jul",
+"1 Year",
+190
+],
+[
+"Aug",
+"1 Week",
+17915
+],
+[
+"Aug",
+"Fortnight",
+1370
+],
+[
+"Aug",
+"1 Month",
+897
+],
+[
+"Aug",
+"3 Months",
+914
+],
+[
+"Aug",
+"6 Months",
+412
+],
+[
+"Aug",
+"1 Year",
+118
+],
+[
+"Sep",
+"1 Week",
+16993
+],
+[
+"Sep",
+"Fortnight",
+1294
+],
+[
+"Sep",
+"1 Month",
+712
+],
+[
+"Sep",
+"3 Months",
+730
+],
+[
+"Sep",
+"6 Months",
+395
+],
+[
+"Sep",
+"1 Year",
+34
+],
+[
+"Oct",
+"1 Week",
+15586
+],
+[
+"Oct",
+"Fortnight",
+1200
+],
+[
+"Oct",
+"1 Month",
+648
+],
+[
+"Oct",
+"3 Months",
+419
+],
+[
+"Oct",
+"6 Months",
+418
+],
+[
+"Nov",
+"1 Week",
+12576
+],
+[
+"Nov",
+"Fortnight",
+934
+],
+[
+"Nov",
+"1 Month",
+511
+],
+[
+"Nov",
+"3 Months",
+467
+],
+[
+"Nov",
+"6 Months",
+292
+],
+[
+"Dec",
+"1 Week",
+13337
+],
+[
+"Dec",
+"Fortnight",
+717
+],
+[
+"Dec",
+"1 Month",
+490
+],
+[
+"Dec",
+"3 Months",
+783
+],
+[
+"Dec",
+"6 Months",
+124
+] 
+];
+data.addColumn('string','Open');
+data.addColumn('string','Duration');
+data.addColumn('number','Weight');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsDrawChart
+function drawChartSankeyID303022f375bc() {
+var data = gvisDataSankeyID303022f375bc();
+var options = {};
+options["width"] = 500;
+options["height"] = 500;
+options["sankey"] = {link: {color: { fill: '#d799ae' } },
+                            node: { color: { fill: '#a61d4c' },
+                            label: { color: '#871b47' } }};
+
+
+    var chart = new google.visualization.Sankey(
+    document.getElementById('SankeyID303022f375bc')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "sankey";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartSankeyID303022f375bc);
+})();
+function displayChartSankeyID303022f375bc() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsFooter
+</script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartSankeyID303022f375bc"></script>
+
+
+<!-- divChart -->
+  
+<div id="SankeyID303022f375bc" 
+  style="width: 500; height: 500;">
+</div>
+

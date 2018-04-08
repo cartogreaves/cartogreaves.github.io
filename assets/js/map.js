@@ -33,5 +33,10 @@
     	.bindPopup('<a href="pdfs/Mount_Washington.pdf" target="_blank">Wind Characteristics</a><br />The fastest place on earth<br />Mount Washington, NH, USA')
 
     L.marker([78.393985, 16.992588]).addTo(mymap)
-    	.bindPopup('<a href="pdfs/Tunabreen.pdf" target="_blank">Glacial Surges 2002 to 2010</a><br />Tunabreen<br />Svalbard')    
+    	.bindPopup('<a href="pdfs/Tunabreen.pdf" target="_blank">Glacial Surges 2002 to 2010</a><br />Tunabreen<br />Svalbard')
+
+    L.marker([42.357728, -71.060226]).addTo(mymap)
+        .bindPopup('<a href="pdfs/BostonSankey.html" target="_blank">Sankey Diagram</a><br />2017 311 Calls<br />Boston, MA, USA')
+
+
 
