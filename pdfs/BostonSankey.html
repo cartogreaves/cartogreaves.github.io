@@ -1,5 +1,5 @@
 <!-- Sankey generated in R 3.4.3 by googleVis 0.6.2 package -->
-<!-- Sun Apr 08 21:06:28 2018 -->
+<!-- Mon Apr 09 13:05:53 2018 -->
 
 
 <!-- jsHeader -->
@@ -7,14 +7,19 @@
 
 
 // jsData 
-function gvisDataSankeyID303022f375bc () {
+function gvisDataSankeyID2b0bac6fc8 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
 "Jan",
+"1 Day",
+10703
+],
+[
+"Jan",
 "1 Week",
-14116
+3487
 ],
 [
 "Jan",
@@ -43,13 +48,23 @@ var datajson =
 ],
 [
 "Jan",
-"Year +",
+"More than a Year",
 25
+],
+[
+"Jan",
+"Never Closed",
+1132
+],
+[
+"Feb",
+"1 Day",
+14274
 ],
 [
 "Feb",
 "1 Week",
-19844
+5676
 ],
 [
 "Feb",
@@ -78,13 +93,23 @@ var datajson =
 ],
 [
 "Feb",
-"Year +",
+"More than a Year",
 19
+],
+[
+"Feb",
+"Never Closed",
+1275
+],
+[
+"Mar",
+"1 Day",
+12829
 ],
 [
 "Mar",
 "1 Week",
-17219
+4390
 ],
 [
 "Mar",
@@ -113,13 +138,23 @@ var datajson =
 ],
 [
 "Mar",
-"Year +",
+"More than a Year",
 12
+],
+[
+"Mar",
+"Never Closed",
+1482
+],
+[
+"Apr",
+"1 Day",
+10207
 ],
 [
 "Apr",
 "1 Week",
-14297
+4108
 ],
 [
 "Apr",
@@ -147,9 +182,19 @@ var datajson =
 232
 ],
 [
+"Apr",
+"Never Closed",
+1560
+],
+[
+"May",
+"1 Day",
+11223
+],
+[
 "May",
 "1 Week",
-15909
+4686
 ],
 [
 "May",
@@ -177,9 +222,19 @@ var datajson =
 306
 ],
 [
+"May",
+"Never Closed",
+1689
+],
+[
+"Jun",
+"1 Day",
+12320
+],
+[
 "Jun",
 "1 Week",
-16700
+4385
 ],
 [
 "Jun",
@@ -207,9 +262,19 @@ var datajson =
 211
 ],
 [
+"Jun",
+"Never Closed",
+1843
+],
+[
+"Jul",
+"1 Day",
+10981
+],
+[
 "Jul",
 "1 Week",
-15693
+4712
 ],
 [
 "Jul",
@@ -237,9 +302,19 @@ var datajson =
 190
 ],
 [
+"Jul",
+"Never Closed",
+1838
+],
+[
+"Aug",
+"1 Day",
+13306
+],
+[
 "Aug",
 "1 Week",
-17915
+4609
 ],
 [
 "Aug",
@@ -267,9 +342,19 @@ var datajson =
 118
 ],
 [
+"Aug",
+"Never Closed",
+2190
+],
+[
+"Sep",
+"1 Day",
+12580
+],
+[
 "Sep",
 "1 Week",
-16993
+4414
 ],
 [
 "Sep",
@@ -297,9 +382,19 @@ var datajson =
 34
 ],
 [
+"Sep",
+"Never Closed",
+2392
+],
+[
+"Oct",
+"1 Day",
+11656
+],
+[
 "Oct",
 "1 Week",
-15586
+3930
 ],
 [
 "Oct",
@@ -322,9 +417,19 @@ var datajson =
 418
 ],
 [
+"Oct",
+"Never Closed",
+2488
+],
+[
+"Nov",
+"1 Day",
+9407
+],
+[
 "Nov",
 "1 Week",
-12576
+3169
 ],
 [
 "Nov",
@@ -347,9 +452,19 @@ var datajson =
 292
 ],
 [
+"Nov",
+"Never Closed",
+2534
+],
+[
+"Dec",
+"1 Day",
+10396
+],
+[
 "Dec",
 "1 Week",
-13337
+2941
 ],
 [
 "Dec",
@@ -370,6 +485,11 @@ var datajson =
 "Dec",
 "6 Months",
 124
+],
+[
+"Dec",
+"Never Closed",
+2194
 ] 
 ];
 data.addColumn('string','Open');
@@ -381,19 +501,19 @@ return(data);
 
 
 // jsDrawChart
-function drawChartSankeyID303022f375bc() {
-var data = gvisDataSankeyID303022f375bc();
+function drawChartSankeyID2b0bac6fc8() {
+var data = gvisDataSankeyID2b0bac6fc8();
 var options = {};
-options["width"] = 500;
-options["height"] = 500;
+options["width"] = 400;
+options["height"] = 400;
 options["sankey"] = {iterations: 0,
-	link: {color: { fill: '#d799ae' } },
+  link: {color: { fill: '#d799ae' } },
                             node: { color: { fill: '#a61d4c' },
                             label: { color: '#871b47' } }};
 
 
     var chart = new google.visualization.Sankey(
-    document.getElementById('SankeyID303022f375bc')
+    document.getElementById('SankeyID2b0bac6fc8')
     );
     chart.draw(data,options);
     
@@ -418,9 +538,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartSankeyID303022f375bc);
+callbacks.push(drawChartSankeyID2b0bac6fc8);
 })();
-function displayChartSankeyID303022f375bc() {
+function displayChartSankeyID2b0bac6fc8() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -446,12 +566,12 @@ callbacks.shift()();
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartSankeyID303022f375bc"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartSankeyID2b0bac6fc8"></script>
 
 
 <!-- divChart -->
   
-<div id="SankeyID303022f375bc" 
-  style="width: 500; height: 500;">
+<div id="SankeyID2b0bac6fc8" 
+  style="width: 400; height: 400;">
 </div>
 
