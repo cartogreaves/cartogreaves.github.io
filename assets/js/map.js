@@ -38,5 +38,3 @@
     L.marker([42.357728, -71.060226]).addTo(mymap)
         .bindPopup('<a href="pdfs/BostonSankey.html" target="_blank">Sankey Diagram</a><br />2017 311 Calls<br />Boston, MA, USA')
 
-
-
